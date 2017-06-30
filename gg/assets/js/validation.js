@@ -164,7 +164,7 @@ $(document).ready(function(){
                 }
            });
            return response;
-       }, "Mobile number already registered.");
+       }, "Número de telefone já está registrado.");
        
        jQuery.validator.addMethod("checkMobileExist2", function(value, element)
        {
@@ -195,7 +195,7 @@ $(document).ready(function(){
                });
            }
            return response;
-       }, "Mobile number already registered.");
+       }, "Número de telefone já está registrado.");
        
        
        jQuery.validator.addMethod("checkPhoneExist", function(value, element)

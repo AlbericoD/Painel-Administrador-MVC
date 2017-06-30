@@ -65,7 +65,7 @@ class CI_Router {
 	 */
 	var $method			= 'index';
 	/**
-	 * Sub-directory that contains the requested controller class
+	 * Sub-directory that contains the requested controller class retrablhar aqui
 	 *
 	 * @var string
 	 * @access public

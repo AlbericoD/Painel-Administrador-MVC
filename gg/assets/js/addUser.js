@@ -23,12 +23,12 @@ $(document).ready(function(){
 			role : { required : true, selected : true}
 		},
 		messages:{
-			fname :{ required : "Este campo é obrigatório" },
-			email : { required : "Este campo é obrigatório", email : "Por favor, entre com um e-mail válido", remote : "Opa!, esse Email já está sendo utilizado" },
-			password : { required : "Este campo é obrigatório" },
-			cpassword : {required : "Este campo é obrigatório", equalTo: "Por favor, coloque a mesma senha" },
-			mobile : { required : "Este campo é obrigatório", digits : "Apenas números aqui" },
-			role : { required : "Este campo é obrigatório", selected : "Selecione pelo menos uma opção" }			
+			fname :{ required : "Este campo é obrigatório." },
+			email : { required : "Este campo é obrigatório.", email : "Por favor, entre com um e-mail válido.", remote : "Opa!, esse Email já está sendo utilizado." },
+			password : { required : "Este campo é obrigatório." },
+			cpassword : {required : "Este campo é obrigatório.", equalTo: "Por favor, coloque a mesma senha." },
+			mobile : { required : "Este campo é obrigatório.", digits : "Apenas números aqui." },
+			role : { required : "Este campo é obrigatório.", selected : "Selecione pelo menos uma opção." }			
 		}
 	});
 });

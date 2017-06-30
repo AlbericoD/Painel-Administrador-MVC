@@ -217,13 +217,13 @@ class Login extends CI_Controller
             {                
                 $this->login_model->createPasswordUser($email, $password);
                 
-                $status = 'success';
-                $message = 'Password changed successfully';
+                $status = 'Sucesso';
+                $message = 'Senha alterada com sucesso!';
             }
             else
             {
                 $status = 'error';
-                $message = 'Password changed failed';
+                $message = 'Alteração de senha falhou';
             }
             
             setFlashData($status, $message);

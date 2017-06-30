@@ -40,8 +40,7 @@ class CI_Model {
 	/**
 	 * __get
 	 *
-	 * Allows models to access CI's loaded classes using the same
-	 * syntax as controllers.
+	 * Lembrar de criar novas instancias.
 	 *
 	 * @param	string
 	 * @access private

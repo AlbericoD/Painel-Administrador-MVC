@@ -41,7 +41,7 @@ class CI_Zip  {
 	var $now;
 
 	/**
-	 * Constructor
+	 * Constructor zip code!??!
 	 */
 	public function __construct()
 	{
