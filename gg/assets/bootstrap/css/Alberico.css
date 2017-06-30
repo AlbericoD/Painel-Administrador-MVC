@@ -1,0 +1,7 @@
+body {
+  position: relative;
+  max-width: 25rem;
+  margin: 2rem auto;
+   background: #FF4E50; 
+   background: -webkit-linear-gradient(right, rgba(0, 60, 179,0.8), rgba(251, 174, 23,0.6)); 
+}
