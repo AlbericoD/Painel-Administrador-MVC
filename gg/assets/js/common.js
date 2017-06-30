@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 			hitURL = baseURL + "deleteUser",
 			currentRow = $(this);
 		
-		var confirmation = confirm("Are you sure to delete this user ?");
+		var confirmation = confirm("Tem certeza que deseja excluir esse usuário");
 		
 		if(confirmation)
 		{
@@ -22,9 +22,9 @@ jQuery(document).ready(function(){
 			}).done(function(data){
 				console.log(data);
 				currentRow.parents('tr').remove();
-				if(data.status = true) { alert("User successfully deleted"); }
-				else if(data.status = false) { alert("User deletion failed"); }
-				else { alert("Access denied..!"); }
+				if(data.status = true) { alert("Usuário deletado com sucesso"); }
+				else if(data.status = false) { alert("Falha ao deletar usuário"); }
+				else { alert("Opa, essa area é restrita para você..!"); }
 			});
 		}
 	});

@@ -19,11 +19,12 @@ $(document).ready(function(){
 			role : { required : true, selected : true}
 		},
 		messages:{
-			fname :{ required : "This field is required" },
-			email : { required : "This field is required", email : "Please enter valid email address", remote : "Email already taken" },
-			cpassword : {equalTo: "Please enter same password" },
-			mobile : { required : "This field is required", digits : "Please enter numbers only" },
-			role : { required : "This field is required", selected : "Please select atleast one option" }			
+			fname :{ required : "Este campo é obrigatório" },
+			email : { required : "Este campo é obrigatório", email : "Por favor, entre com um e-mail válido", remote : "Opa!, esse Email já está sendo utilizado" },
+			password : { required : "Este campo é obrigatório" },
+			cpassword : {required : "Este campo é obrigatório", equalTo: "Por favor, coloque a mesma senha" },
+			mobile : { required : "Este campo é obrigatório", digits : "Apenas números aqui" },
+			role : { required : "Este campo é obrigatório", selected : "Selecione pelo menos uma opção" }		
 		}
 	});
 });
