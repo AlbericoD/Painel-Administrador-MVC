@@ -1,6 +1,6 @@
 # Painel-Administrador-MVC
 
-Painel adpatado para uma empresa, contém painel administrativo para gerenciamento geral, painel de login e etc...
+Painel adaptado para uma empresa, contém painel administrativo para gerenciamento geral, painel de login e etc...
 
 ## Framework do php CodeIgniter
 
